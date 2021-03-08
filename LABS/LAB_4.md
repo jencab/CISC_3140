@@ -27,3 +27,14 @@ These are some options curl provides.<br>
 `-o` or `0` saves the result of the `curl` command <br>
 `-C` resumes a download <br>
 `-I` fetches only the HTTP headers of the specified resource. 
+2. `wget` downloads files from the web. Syntax: `wget [options] [url]`
+If no option is specified `wget` will download the resource to the current directory. If the files already exists `wget` will add a number at the end of the file name.
+Some options you can use. <br>
+`-i` reads URLs form a local or external file. <br>
+`-O file` documents will not be written to the appropiate files, but will be joined and written to the specified file. <br>
+`-S` print the headers sent by the HTTP servers and responses sent by FTP servers.
+3. `convert` converts between image formats as well as resize an image, blur, crop, flip, etc. Syntax: `convert input-file [options] output-file` <br>
+Some options you can use. <br>
+`-auto-orient` automatically orient image <br>
+`-black-threshold value` force all pixels below the threshold into black <br>
+`-blur`reduce image noise and reduce detail levels
